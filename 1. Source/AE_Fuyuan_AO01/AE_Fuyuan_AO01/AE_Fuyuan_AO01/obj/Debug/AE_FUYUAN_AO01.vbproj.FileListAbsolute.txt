@@ -1,0 +1,66 @@
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\ABEO_CNVT_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\ABEO_CNVT_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\ABEO_CNVT_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ResolveAssemblyReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\AE_FUYUAN_AO01.vbproj.ResolveComReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.Resources.resources
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ResGen.read.1.tlog
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ResGen.write.1.tlog
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\ABEO_CNVT_AO01\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\AE_Fuyuan_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\AE_Fuyuan_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\AE_Fuyuan_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ResolveAssemblyReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\AE_Fuyuan_AO01.vbproj.ResolveComReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\AE_Fuyuan_AO01.Resources.resources
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ResGen.read.1.tlog
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ResGen.write.1.tlog
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\AE_Fuyuan_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\AE_Fuyuan_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\AE_Fuyuan_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.vbproj.ResolveComReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\AE_Fuyuan_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\AE_Fuyuan_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\AE_Fuyuan_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\ResolveAssemblyReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.Resources.resources
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\ResGen.read.1.tlog
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\New folder\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\ResGen.write.1.tlog
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.vbproj.ResolveComReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\AE_Fuyuan_AO01.exe
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\AE_Fuyuan_AO01.pdb
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\AE_Fuyuan_AO01.xml
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\ResolveAssemblyReference.cache
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.Resources.resources
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\ResGen.read.1.tlog
+E:\John Backup\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\ResGen.write.1.tlog
+F:\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+F:\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+F:\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.vbproj.ResolveComReference.cache
+F:\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.exe
+F:\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.xml
+F:\Application\SAP B1\Projects\Fuyuan\AE_Fuyuan_AO01\AE_Fuyuan_AO01\obj\Debug\AE_Fuyuan_AO01.pdb

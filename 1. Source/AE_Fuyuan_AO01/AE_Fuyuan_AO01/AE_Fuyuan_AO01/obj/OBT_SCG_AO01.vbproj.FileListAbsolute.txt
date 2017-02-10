@@ -1,0 +1,48 @@
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.frmOpenDialog.resources
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.Resources.resources
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.vbproj.GenerateResource.Cache
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.exe
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.pdb
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.xml
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.exe
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.xml
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.pdb
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Project\SC Global\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.vbproj.ResolveComReference.cache
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.exe
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.xml
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.pdb
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.exe
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.pdb
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.xml
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.vbproj.ResolveComReference.cache
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.frmOpenDialog.resources
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.Resources.resources
+C:\Projects\SCGlobal\SCGlobal\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.vbproj.GenerateResource.Cache
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.exe
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.xml
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.pdb
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.exe
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.pdb
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\OBT_SCG_AO01.xml
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.vbproj.ResolveComReference.cache
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.frmOpenDialog.resources
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.Resources.resources
+D:\Project\SC Global\Sri Source Code\OBT_SCG_AO01\OBT_SCG_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.vbproj.GenerateResource.Cache
+C:\Program Files\OB_Projects\sap88\RE_S_Sync\SCGlobal\OBT_RES_Sync_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.exe
+C:\Program Files\OB_Projects\sap88\RE_S_Sync\SCGlobal\OBT_RES_Sync_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.xml
+C:\Program Files\OB_Projects\sap88\RE_S_Sync\SCGlobal\OBT_RES_Sync_AO01\OBT_SCG_AO01\obj\Debug\OBT_SCG_AO01.pdb

@@ -1,0 +1,17 @@
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\Interop.SAPbouiCOM.dll
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.vbproj.ResolveComReference.cache
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.Resources.resources
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.vbproj.GenerateResource.Cache
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\ABEO_CNVT_AO01.exe
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\ABEO_CNVT_AO01.pdb
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\ABEO_CNVT_AO01.xml
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\Interop.SAPbobsCOM.dll
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\bin\Debug\Interop.SAPbouiCOM.dll
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.exe
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.xml
+D:\Projects\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.pdb
+D:\Projects_ABEO\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.exe
+D:\Projects_ABEO\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.xml
+D:\Projects_ABEO\Conversant\ABEO_CNVT_AO01\ABEO_CNVT_AO01\obj\Debug\ABEO_CNVT_AO01.pdb

@@ -1,0 +1,202 @@
+For Every Activity, must put this code of line.
+
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Description", sFuncName)
+
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Executing SQL :" & sSql, sFuncName)
+  
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling MyFunction()", sFuncName)
+If MyFunction(oForm, sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+  
+************************************************************************************************
+									DISPLAY WAITING STATUS
+************************************************************************************************
+
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling DisplayStatus()", sFuncName)
+Call DisplayStatus(oForm, "Please wait....", sErrDesc)
+
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling EndStatus()", sFuncName)
+Call EndStatus(sErrDesc)
+
+************************************************************************************************
+									FUNCTION TEMPLATE
+************************************************************************************************
+
+Public Function MyFunction(ByVal oForm As SAPbouiCOM.Form, Byref sErrDesc As String) As Long
+        ' **********************************************************************************
+        'Function   :   MyFunction()
+        'Purpose    :   
+        '               
+        '               
+        'Parameters :   ByVal oForm As SAPbouiCOM.Form
+        '                   oForm=Form Type
+        '               ByRef sErrDesc As String
+        '                   sErrDesc=Error Description to be returned to calling function
+        '               
+        '                   =
+        'Return     :   0 - FAILURE
+        '               1 - SUCCESS
+        'Author     :   Jason Ham
+        'Date       :   18 Oct 2010
+        'Change     :
+        ' **********************************************************************************
+  Dim sFuncName As String= String.Empty
+  Dim sSql As String= String.Empty
+  Dim oRS As SAPbobsCOM.Recordset
+    Try
+		sFuncName = "MyFunction()"
+		If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Starting Function", sFuncName)
+    
+    
+         'Set Record Set Object
+         oRS= p_oDICompany.GetBusinessObject(SAPbobsCOM.BoObjectTypes.BoRecordset)
+		
+		ssql=""
+		If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Executing SQL :" & sSql, sFuncName)
+		oRS.DoQuery(sSql)
+		If oRS.EoF = False Then
+            While Not oRS.EoF
+
+                oRS.MoveNext()
+            End While
+        End If
+        MyFunction = RTN_SUCCESS
+        If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with SUCCESS", sFuncName)
+    
+    Catch exc As Exception
+        MyFunction = RTN_ERROR
+        sErrDesc = exc.Message
+        Call WriteToLogFile(sErrDesc, sFuncName)
+        If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Completed with ERROR", sFuncName)
+    Finally
+    End Try
+End Function
+    
+************************************************************************************************
+							CALLING FUNCTION WITH THROW ARGUMENT EXCEPTION
+************************************************************************************************  
+   
+If MyFunction(oForm, sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+If sBPCode = "" Then Throw New ArgumentException("BP Code not provided.")
+
+************************************************************************************************    
+									START/COMMIT/ROLLBACK TRANSACTION
+************************************************************************************************    
+if StartTransaction_ADO(sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+if RollBackTransaction_ADO(sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+if CommitTransaction_ADO(sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling StartTransaction()", sFuncName)
+if StartTransaction(sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling RollBackTransaction()", sFuncName)
+if RollBackTransaction(sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+
+If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling CommitTransaction()", sFuncName)
+if CommitTransaction(sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+
+
+************************************************************************************************
+								EVENT LIST
+************************************************************************************************ 
+Application events - events triggered by actions on the Company database of the SAP Business One application. 
+MenuEvent events - events triggered by actions on the main menu and the menu bar.
+ItemEvent events - events triggered by actions on forms and items.
+ProgressBar events - events occurring while the progress bar is activated.
+StatusBar event - event triggered by sending a message to the application status bar.
+Print event -	End-user clicks on Print or Print Preview icons
+				End-user sends a document to print using the Document Printing option
+				The application Document Generation Wizard sends a document to print
+				You can use this event as an "exit" point for integrating third-party reporting tools instead of the SAP Business One Document Editor.
+Form Data events - 
+				Form Data events occurs when the application performs the following actions on forms connected to business objects:
+				Add
+				Update
+				Delete
+				Load form data via browse, link button, or find
+Right-click event - occurs when an end-user presses the right mouse button on a specific item in the application's forms.
+
+*************************************************************************************************
+									SAP FORM MODE
+************************************************************************************************
+
+If pVal.ItemUID = "1" And pVal.Before_Action = False Then
+    Select Case pVal.FormMode
+        Case 0 'search
+            p_oSBOApplication.MessageBox("Search Mode")
+        Case 1 'ok
+            p_oSBOApplication.MessageBox("OK Mode")
+        Case 2 'update
+            p_oSBOApplication.MessageBox("Update Mode")
+        Case 3
+            p_oSBOApplication.MessageBox("Add New Mode")
+    End Select
+End If
+                    
+                    
+************************************************************************************************                   
+									GET UDF FIELD
+************************************************************************************************
+Dim oFormUDF As SAPbouiCOM.Form
+oFormUDF = p_oSBOApplication.Forms.GetForm("-" & oForm.TypeEx, oForm.TypeCount)
+Dim sPlantID As String = oFormUDF.Items.Item("U_OB_PlaCd").Specific.selected.value
+
+
+************************************************************************************************
+									MATRIX LOOPING
+************************************************************************************************
+
+For iCnt = 1 To oForm.Items.Item(sMatrixName).Specific.visualRowCount
+	'For Normal Edit Text Column
+    sVariable = oForm.Items.Item(sMatrixName).Specific.columns.item("OB_Var").cells.item(iCnt).specific.value
+    'For Combo Box Column
+    dValue = oForm.Items.Item(sMatrixName).Specific.columns.item("OB_Value").cells.item(iCnt).specific.selected.value
+    'For check Box
+    oForm.Items.Item("OBT_mITO").Specific.Columns.Item("OBT_cSelec").Cells(iCount).Specific.Checked = True 
+
+Next
+
+
+************************************************************************************************
+									ADD CHOOSE FROM LIST ITEM. EG: Text Box
+************************************************************************************************
+'Card Code/Card Name
+If AddItem(oForm, "OBT_tCustC", True, SAPbouiCOM.BoFormItemTypes.it_EDIT, sErrDesc, "", 2, "OBT_lCustC", 20, , , 16, 210, , , "2", "CardCode") <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+If AddItem(oForm, "OBT_tCustN", False, SAPbouiCOM.BoFormItemTypes.it_EDIT, sErrDesc, "", 2, "OBT_lCustN", 20, , , 16, 210, , , "2", "CardName") <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+
+'Item Code/Name
+If AddItem(oForm, "OBT_tItem", True, SAPbouiCOM.BoFormItemTypes.it_EDIT, sErrDesc, "", 2, "OBT_lItem", 20, , , 16, 210, , , "4", "ItemCode") <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+If AddItem(oForm, "OBT_tItemD", False, SAPbouiCOM.BoFormItemTypes.it_EDIT, sErrDesc, "", 2, "OBT_lItemD", 20, , , 16, 210, , , "4", "ItemName") <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+
+'Whs Code/Name
+If AddItem(oForm, "OBT_tWH", True, SAPbouiCOM.BoFormItemTypes.it_EDIT, sErrDesc, "", 2, "OBT_lWH", 20, , , 16, 210, , , "64", "WhsCode") <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+If AddItem(oForm, "OBT_tWHN", False, SAPbouiCOM.BoFormItemTypes.it_EDIT, sErrDesc, "", 2, "OBT_lWHN", 20, , , 16, 210, , , "64", "WhsName") <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+
+************************************************************************************************
+ITEM EVENT for calling Convert Tab Key into Shift F2: For trigger the Formatted search
+************************************************************************************************
+If pVal.ItemUID = "OBT_tFisYr" And pVal.EventType = SAPbouiCOM.BoEventTypes.et_KEY_DOWN And pVal.CharPressed = 9 And pVal.Before_Action = True Then
+    oForm = SBO_Application.Forms.Item(FormUID)
+    If p_iDebugMode = DEBUG_ON Then Call WriteToLogFile_Debug("Calling ConvertKeyCodeTabToShiftF2()", sFuncName)
+    If ConvertKeyCodeTabToShiftF2(oForm, pVal.ItemUID, BubbleEvent, sErrDesc) <> RTN_SUCCESS Then Throw New ArgumentException(sErrDesc)
+End If
+                    
+                    
+************************************************************************************************
+									GET COMPANY OBJECT HERE...
+************************************************************************************************
+p_oSBOApplication.Company.
+
+
+- Check for DCn Value, make sure user got enter before save/calculate
+- user cannot click the DCn value on matrix.
+
+************************************************************************************************
+									USER DEFINED OBJECT
+************************************************************************************************
+UDO only support field length <=10 char
+For enable the navigation, please open user define form with notepad
+and include this code 
+
+<DataBrowser BrowseBy="eDocNum"/>
+
+(note: eDocNum is 1 of the item on the form)
